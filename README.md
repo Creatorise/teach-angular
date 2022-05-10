@@ -29,7 +29,7 @@ ng new country-table --minimal --skip-git --routing false --style scss
 ng new country-table --interactive
 ```
 
-# Project teardown
+## Project teardown
 
 ```sh
 rm -rf david-angular-introduction
