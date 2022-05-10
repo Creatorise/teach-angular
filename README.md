@@ -1,6 +1,6 @@
 # Introduction to Angular and ag-Grid
 
-# Before we start
+## Before we start
 
 -   Installed nodejs
 -   Installed npm
