@@ -25,14 +25,25 @@ cd david-angular-introduction # Enter folder
 ### 2. Create Angular workspace
 
 ```sh
-ng new country-table --minimal --skip-git --routing false --style scss
+ng new country-table --skip-git --skip-tests --routing true --style scss
+# Or instead
+ng new country-table
+# then enter y for routing and scss for styles
+```
+
+### 3. Create hello-world component
+
+```sh
+cd country-table
+
+ng generate component hello-world --skip-tests
 # OR
-ng new country-table --interactive
+ng g c hello-world --skip-tests
 ```
 
 ## Project teardown
 
 ```sh
-rm -rf david-angular-introduction
+rm david-angular-introduction -rf
 npm uninstall @angular/cli
 ```
