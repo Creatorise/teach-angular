@@ -15,15 +15,16 @@ npm install -g @angular/cli
 
 ## Getting started
 
-```sh
-# Clone this repository
-clone git@github.com:Creatorise/teach-angular.git david-angular-introduction
-# Enter folder
-cd david-angular-introduction
-```
+### 1. Clone repository
 
 ```sh
-# Set up Angular workspace
+clone git@github.com:Creatorise/teach-angular.git david-angular-introduction
+cd david-angular-introduction # Enter folder
+```
+
+### 2. Create Angular workspace
+
+```sh
 ng new country-table --minimal --skip-git --routing false --style scss
 # OR
 ng new country-table --interactive
