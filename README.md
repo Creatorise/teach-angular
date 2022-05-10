@@ -20,7 +20,6 @@ npm install -g @angular/cli
 clone git@github.com:Creatorise/teach-angular.git david-angular-introduction
 # Enter folder
 cd david-angular-introduction
-
 ```
 
 ```sh
@@ -28,4 +27,11 @@ cd david-angular-introduction
 ng new country-table --minimal --skip-git --routing false --style scss
 # OR
 ng new country-table --interactive
+```
+
+# Project teardown
+
+```sh
+rm -rf david-angular-introduction
+npm uninstall @angular/cli
 ```
