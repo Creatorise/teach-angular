@@ -19,16 +19,15 @@ npm install -g @angular/cli
 
 ```sh
 clone git@github.com:Creatorise/teach-angular.git david-angular-introduction
-cd david-angular-introduction # Enter folder
+cd david-angular-introduction # enter folder
 ```
 
 ### 2. Create Angular workspace
 
 ```sh
-ng new country-table --skip-git --skip-tests --routing true --style scss
-# Or instead
 ng new country-table
-# then enter y for routing and scss for styles
+# yes to routing and
+# scss as stylesheet format
 ```
 
 ### 3. Create hello-world component
@@ -37,7 +36,7 @@ ng new country-table
 cd country-table
 
 ng generate component hello-world --skip-tests
-# OR
+# or
 ng g c hello-world --skip-tests
 ```
 
