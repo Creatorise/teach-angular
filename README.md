@@ -1,4 +1,4 @@
-# Introduction to Angular and ag-Grid
+# Introduction to Angular
 
 ## Before we start
 
@@ -11,7 +11,7 @@
 npm install -g @angular/cli
 ```
 
-[Angular local setup guide (https://angular.io/guide/setup-local)](https://angular.io/guide/setup-local)
+[_Local setup guide_](https://angular.io/guide/setup-local)
 
 ## Getting started
 
@@ -25,19 +25,28 @@ cd david-angular-introduction # enter folder
 ### 2. Create Angular workspace
 
 ```sh
-ng new country-table
+ng new client
 # yes to routing and
 # scss as stylesheet format
+
+cd client
+code .
 ```
 
-### 3. Create hello-world component
+### 3. Start Angular
+
+-   Open a new terminal, then
 
 ```sh
-cd country-table
+npm start -- --open # in a new terminal
+```
 
-ng generate component hello-world --skip-tests
+### 4. Create hello-world component
+
+```sh
+ng generate component hello-world
 # or
-ng g c hello-world --skip-tests
+ng g c hello-world
 ```
 
 ## Project teardown
