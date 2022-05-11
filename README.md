@@ -31,12 +31,12 @@ code .
 
 ### 2. Start Angular
 
-#### A - Run in vscode
+#### Option A - Run in vscode
 
 -   Open run and debug tab
 -   Run `ng serve`
 
-#### B - In a new terminal
+#### Option B - From a new terminal
 
 ```sh
 npm start -- --open # (in a new terminal)
