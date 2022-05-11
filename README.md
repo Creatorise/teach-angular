@@ -31,16 +31,16 @@ code .
 
 ### 2. Start Angular
 
-#### alternative A - in a new terminal
+#### A - Run in vscode
+
+-   Open run and debug tab
+-   Run `ng serve`
+
+#### B - In a new terminal
 
 ```sh
 npm start -- --open # in a new terminal
 ```
-
-#### alternative B - vscode run
-
--   Open run and debug tab
--   Run `ng serve`
 
 ### 3. Create hello-world component
 
