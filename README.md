@@ -18,14 +18,14 @@ npm install -g @angular/cli
 ### 1. Create Angular workspace
 
 ```sh
-ng new david-angular-introduction
+ng new angular-introduction
 # yes to routing &
 # scss as stylesheet format
 
 # Or instead
-ng new david-angular-introduction --skip-git --skip-tests --routing true --style scss
+ng new angular-introduction --skip-git --skip-tests --routing true --style scss
 
-cd david-angular-introduction
+cd angular-introduction
 code .
 ```
 
@@ -39,7 +39,7 @@ code .
 #### B - In a new terminal
 
 ```sh
-npm start -- --open # in a new terminal
+npm start -- --open # (in a new terminal)
 ```
 
 ### 3. Create hello-world component
@@ -53,6 +53,6 @@ ng g c hello-world
 ## Project teardown
 
 ```sh
-rm david-angular-introduction -rf
+rm angular-introduction -rf
 npm uninstall @angular/cli
 ```
