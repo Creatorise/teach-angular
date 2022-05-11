@@ -15,25 +15,18 @@ npm install -g @angular/cli
 
 ## Getting started
 
-### 1. Clone repository
+### 1. Create Angular workspace
 
 ```sh
-clone git@github.com:Creatorise/teach-angular.git david-angular-introduction
-cd david-angular-introduction # enter folder
-```
-
-### 2. Create Angular workspace
-
-```sh
-ng new client
-# yes to routing and
+ng new david-angular-introduction
+# yes to routing &
 # scss as stylesheet format
 
-cd client
+cd david-angular-introduction
 code .
 ```
 
-### 3. Start Angular
+### 2. Start Angular
 
 -   Open a new terminal, then
 
@@ -41,7 +34,7 @@ code .
 npm start -- --open # in a new terminal
 ```
 
-### 4. Create hello-world component
+### 3. Create hello-world component
 
 ```sh
 ng generate component hello-world
