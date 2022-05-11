@@ -21,6 +21,8 @@ npm install -g @angular/cli
 ng new david-angular-introduction
 # yes to routing &
 # scss as stylesheet format
+# Or
+ng new david-angular-introduction --skip-git --skip-tests --routing true --style scss
 
 cd david-angular-introduction
 code .
