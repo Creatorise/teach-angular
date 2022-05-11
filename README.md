@@ -21,7 +21,8 @@ npm install -g @angular/cli
 ng new david-angular-introduction
 # yes to routing &
 # scss as stylesheet format
-# Or
+
+# Or instead
 ng new david-angular-introduction --skip-git --skip-tests --routing true --style scss
 
 cd david-angular-introduction
@@ -30,11 +31,16 @@ code .
 
 ### 2. Start Angular
 
--   Open a new terminal, then
+#### alternative A - in a new terminal
 
 ```sh
 npm start -- --open # in a new terminal
 ```
+
+#### alternative B - vscode run
+
+-   Open run and debug tab
+-   Run `ng serve`
 
 ### 3. Create hello-world component
 
